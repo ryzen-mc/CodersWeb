@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(to right,white, yellowgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(240, 159, 10);
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    font-family: "press Start 2P";
+    border-style: outset;
+    border-color: rgb(140, 230, 0);
+    border-width: 12px;
+    border-radius: 20px;
+    padding: 12px;
+    text-shadow: 5px 5px 5px grey;
+    animation: mySlide 10s ease-in-out infinite alternate;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes mySlide{
+    from{margin-right: 0%;}
+    to{margin-right: 100%;}
+}
+
+p {
+    color:chocolate;
+    font-family: "consolas";
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.intro {
+    font-size: 25px;
+    color: coral;
+}
+#p3{
+    font-size: 23px;
+    margin-top: 50%;
+}
+.outro {
+    font-size: 18px;
+    color: darkgreen;
+    text-decoration: aqua wavy underline;
+    text-align: center;
+}
+#box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: gainsboro;
+    padding: 26px;
+    margin: 25px;
+    text-align: center;
+}
+
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: gainsboro;
+    padding: 26px;
+    margin: 25px;
+    text-align: center;
+}
+#box3 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: gainsboro;
+    padding: 26px;
+    margin: 25px;
+    text-align: center;
+}
+
+#link1 {
+    font-size: 22px;
+    color: darkred;
+}
+#link2 {
+    font-size: 22px;
+    color: darkred;
+}
+#link3 {
+    font-size: 22px;
+    color: darkred;
+}
+a:link{
+    color: rgb(135, 0, 0);
+}
+a:visited{
+    color: rgb(135, 0, 0);
+}
+a:hover{
+    color: yellow;
+    transition: 0.7;
+}
+.box{
+    float: left;
+}
+.button{
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "press Start 2P";
+}
+.button:hover{
+    color: rgb(135, 0, 0);
+    transition: 0.7;
+    box-shadow: 10px 10px 5px black;
+}
